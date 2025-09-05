@@ -1,0 +1,20 @@
+# Bot Configuration
+telegram:
+  rate_limit: 30
+
+kucoin:
+  base_url: "https://api.kucoin.com"
+  timeout: 10
+
+strategies:
+  btc:
+    timeframe: "5min"
+    lookback: 200
+
+  eth:
+    timeframe: "15min"
+    lookback: 100
+
+  sol:
+    timeframe: "1min"
+    lookback: 100
